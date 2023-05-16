@@ -1,9 +1,6 @@
 <?php
 
     //back to null
-
-use function PHPSTORM_META\type;
-
     $namaLengkap  = '';
     $kelas = '';
 
@@ -29,11 +26,6 @@ use function PHPSTORM_META\type;
             $kelasError = "Kelas tidak boleh kosong!";
         } else {
             $kelas = dataType($_POST['kelas']);
-        }
-    }
-
-    if(isset($_POST['submit'])) {
-        if(empty($_POST['namaLengkap'])) {
         }
     }
 ?>
